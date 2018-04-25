@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="LoginApp" preserve-order="true" parallel="false" thread-count="1" verbose="2">
+
+ <groups>
+        <run>
+            <include name = "loginGroup" />
+            <exclude name = "" />
+        </run>
+    </groups>
+
+ 
+
+    <!--  suite parameters -->
+    <parameter name="environment" value="local" />
+
+    <!--  tests -->
+   
+    
+    <test name="LoginApp - Browser - Microsoft Edge">
+        <!-- test parameters -->
+        <parameter name="browser" value="edge" />
+        <parameter name="platform" value="Windows 10" />
+       <!--  <parameter name="includePattern" value="." />
+        <parameter name="excludePattern" value="" /> -->
+ <packages>
+            <package name="com.test"/>
+        </packages>
+      
+    </test>
+    
+     <test name="LoginApp - Browser - Chrome">
+        <!-- test parameters -->
+        <parameter name="browser" value="chrome" />
+        <parameter name="platform" value="Windows 10" />
+       <!--  <parameter name="includePattern" value="." />
+        <parameter name="excludePattern" value="" /> -->
+ <packages>
+            <package name="com.test"/>
+        </packages>
+      
+    </test>
+
+
+
+</suite>

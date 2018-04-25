@@ -1,0 +1,7 @@
+com\pageobjects\AppLoginWelcomePO.class
+com\pageobjects\AppLoginPO.class
+com\drivers\CreateDriver.class
+com\variables\Global_VARS.class
+com\utils\JSONDataProvider.class
+com\utils\BrowserUtils.class
+com\test\LoginPageTest.class

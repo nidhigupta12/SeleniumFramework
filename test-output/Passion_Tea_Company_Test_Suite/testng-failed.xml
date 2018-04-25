@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Passion_Tea_Company_Test_Suite]">
+  <parameter name="environment" value="local"/>
+  <test name="Passion Tea Co Test - Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="Windows 10"/>
+    <groups>
+      <run>
+        <include name="loginGroup"/>
+        <exclude name=""/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.LoginPageTest">
+        <methods>
+          <include name="testTeardown"/>
+          <include name="testMethodSetup"/>
+          <include name="testClassSetup"/>
+          <include name="TestCase2_Login_Failed"/>
+          <include name="suiteTeardown"/>
+          <include name="testMethodTeardown"/>
+          <include name="testClassTeardown"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- com.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Passion Tea Co Test - Chrome(failed) -->
+</suite> <!-- Failed suite [Passion_Tea_Company_Test_Suite] -->
