@@ -18,6 +18,7 @@ import static org.testng.Assert.assertEquals;
 public abstract class AppLoginPO<M extends WebElement> {
     // local variables
     protected String pageTitle = "";
+   
 
     // constructor
     public AppLoginPO() throws Exception {
@@ -69,7 +70,8 @@ public abstract class AppLoginPO<M extends WebElement> {
         driver.navigate().to(url);
 
         // wait for page URL
-        BrowserUtils.waitForURL(Global_VARS.TARGET_URL, timeout);
+        System.out.println("Nidhi" +System.getProperty("environment"));
+        BrowserUtils.waitForURL(System.getProperty("environment"), timeout);
     }
 
     

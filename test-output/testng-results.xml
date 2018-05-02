@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="4" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="LoginApp" duration-ms="9514" started-at="2018-04-25T15:48:59Z" finished-at="2018-04-25T15:49:08Z">
+  <suite name="LoginApp" duration-ms="9693" started-at="2018-04-26T01:35:11Z" finished-at="2018-04-26T01:35:21Z">
     <groups>
     </groups>
-    <test name="LoginApp - Browser - Microsoft Edge" duration-ms="5256" started-at="2018-04-25T15:48:59Z" finished-at="2018-04-25T15:49:04Z">
+    <test name="LoginApp - Browser - Microsoft Edge" duration-ms="5304" started-at="2018-04-26T01:35:11Z" finished-at="2018-04-26T01:35:16Z">
       <class name="com.test.LoginPageTest">
-        <test-method status="PASS" signature="testSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@4dfa3a9d]" name="testSetup" is-config="true" duration-ms="2418" started-at="2018-04-25T11:48:59Z" finished-at="2018-04-25T11:49:01Z">
+        <test-method status="PASS" signature="testSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@1794d431]" name="testSetup" is-config="true" duration-ms="2385" started-at="2018-04-25T21:35:11Z" finished-at="2018-04-25T21:35:13Z">
           <params>
             <param index="0">
               <value>
@@ -27,26 +27,26 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[org.testng.TestRunner@79defdc]]>
+                <![CDATA[org.testng.TestRunner@74287ea3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testTeardown()[pri:0, instance:com.test.LoginPageTest@4dfa3a9d]" name="testTeardown" is-config="true" duration-ms="2833" started-at="2018-04-25T11:49:01Z" finished-at="2018-04-25T11:49:04Z">
+        <test-method status="PASS" signature="testTeardown()[pri:0, instance:com.test.LoginPageTest@1794d431]" name="testTeardown" is-config="true" duration-ms="2916" started-at="2018-04-25T21:35:13Z" finished-at="2018-04-25T21:35:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeardown -->
       </class> <!-- com.test.LoginPageTest -->
     </test> <!-- LoginApp - Browser - Microsoft Edge -->
-    <test name="LoginApp - Browser - Chrome" duration-ms="4166" started-at="2018-04-25T15:49:04Z" finished-at="2018-04-25T15:49:08Z">
+    <test name="LoginApp - Browser - Chrome" duration-ms="4272" started-at="2018-04-26T01:35:16Z" finished-at="2018-04-26T01:35:21Z">
       <class name="com.test.LoginPageTest">
-        <test-method status="PASS" signature="suiteTeardown()[pri:0, instance:com.test.LoginPageTest@56ac3a89]" name="suiteTeardown" is-config="true" duration-ms="9" started-at="2018-04-25T11:48:59Z" finished-at="2018-04-25T11:48:59Z">
+        <test-method status="PASS" signature="suiteTeardown()[pri:0, instance:com.test.LoginPageTest@2f686d1f]" name="suiteTeardown" is-config="true" duration-ms="7" started-at="2018-04-25T21:35:11Z" finished-at="2018-04-25T21:35:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTeardown -->
-        <test-method status="PASS" signature="testSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@56ac3a89]" name="testSetup" is-config="true" duration-ms="3442" started-at="2018-04-25T11:49:04Z" finished-at="2018-04-25T11:49:08Z">
+        <test-method status="PASS" signature="testSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@2f686d1f]" name="testSetup" is-config="true" duration-ms="3645" started-at="2018-04-25T21:35:16Z" finished-at="2018-04-25T21:35:20Z">
           <params>
             <param index="0">
               <value>
@@ -66,18 +66,18 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[org.testng.TestRunner@18317edc]]>
+                <![CDATA[org.testng.TestRunner@7d7758be]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testTeardown()[pri:0, instance:com.test.LoginPageTest@56ac3a89]" name="testTeardown" is-config="true" duration-ms="723" started-at="2018-04-25T11:49:08Z" finished-at="2018-04-25T11:49:08Z">
+        <test-method status="PASS" signature="testTeardown()[pri:0, instance:com.test.LoginPageTest@2f686d1f]" name="testTeardown" is-config="true" duration-ms="626" started-at="2018-04-25T21:35:20Z" finished-at="2018-04-25T21:35:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeardown -->
-        <test-method status="PASS" signature="suiteTeardown()[pri:0, instance:com.test.LoginPageTest@56ac3a89]" name="suiteTeardown" is-config="true" duration-ms="0" started-at="2018-04-25T11:49:08Z" finished-at="2018-04-25T11:49:08Z">
+        <test-method status="PASS" signature="suiteTeardown()[pri:0, instance:com.test.LoginPageTest@2f686d1f]" name="suiteTeardown" is-config="true" duration-ms="1" started-at="2018-04-25T21:35:21Z" finished-at="2018-04-25T21:35:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTeardown -->

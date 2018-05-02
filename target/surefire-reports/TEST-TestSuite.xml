@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="2.312" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="1.98" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -12,6 +12,7 @@
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
+    <property name="env" value="https://test.tri-mpronav.com/login/index"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
@@ -45,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher compile test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Denv=https://test.tri-mpronav.com/login/index"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,8 +65,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TestCase1_Login_Verify" classname="com.test.LoginPageTest" time="0.111"/>
   <testcase name="TestCase1_Login_Verify" classname="com.test.LoginPageTest" time="0.065"/>
-  <testcase name="TestCase1_Login_Verify" classname="com.test.LoginPageTest" time="1.096"/>
-  <testcase name="TestCase1_Login_Verify" classname="com.test.LoginPageTest" time="1.04"/>
+  <testcase name="TestCase1_Login_Verify" classname="com.test.LoginPageTest" time="0.051"/>
+  <testcase name="TestCase1_Login_Verify" classname="com.test.LoginPageTest" time="0.995"/>
+  <testcase name="TestCase1_Login_Verify" classname="com.test.LoginPageTest" time="0.869"/>
 </testsuite>

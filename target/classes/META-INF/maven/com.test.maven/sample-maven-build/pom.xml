@@ -20,6 +20,11 @@
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                       
                     </suiteXmlFiles>
+                    
+                    <systemPropertyVariables>
+                        <environment>${env}</environment>
+                    </systemPropertyVariables>
+                
                 </configuration>
             </plugin>
             <!-- Compiler plugin configures the java version to be usedfor compiling

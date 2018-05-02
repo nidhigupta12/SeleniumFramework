@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="LoginApp" duration-ms="16829" started-at="2018-04-25T16:16:29Z" finished-at="2018-04-25T16:16:46Z">
+  <suite name="LoginApp" duration-ms="31426" started-at="2018-04-26T01:55:19Z" finished-at="2018-04-26T01:55:51Z">
     <groups>
       <group name="loginGroup">
         <method signature="LoginPageTest.TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="TestCase1_Login_Verify" class="com.test.LoginPageTest"/>
         <method signature="LoginPageTest.TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="TestCase1_Login_Verify" class="com.test.LoginPageTest"/>
       </group> <!-- loginGroup -->
     </groups>
-    <test name="LoginApp - Browser - Microsoft Edge" duration-ms="6644" started-at="2018-04-25T16:16:29Z" finished-at="2018-04-25T16:16:36Z">
+    <test name="LoginApp - Browser - Microsoft Edge" duration-ms="20681" started-at="2018-04-26T01:55:19Z" finished-at="2018-04-26T01:55:40Z">
       <class name="com.test.LoginPageTest">
-        <test-method status="PASS" signature="testSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testSetup" is-config="true" duration-ms="2754" started-at="2018-04-25T12:16:29Z" finished-at="2018-04-25T12:16:32Z">
+        <test-method status="PASS" signature="testSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testSetup" is-config="true" duration-ms="2569" started-at="2018-04-25T21:55:19Z" finished-at="2018-04-25T21:55:22Z">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testClassSetup(org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testClassSetup" is-config="true" duration-ms="678" started-at="2018-04-25T12:16:32Z" finished-at="2018-04-25T12:16:33Z">
+        <test-method status="PASS" signature="testClassSetup(org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testClassSetup" is-config="true" duration-ms="14995" started-at="2018-04-25T21:55:22Z" finished-at="2018-04-25T21:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClassSetup -->
-        <test-method status="PASS" signature="testMethodSetup(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testMethodSetup" is-config="true" duration-ms="0" started-at="2018-04-25T12:16:33Z" finished-at="2018-04-25T12:16:33Z">
+        <test-method status="PASS" signature="testMethodSetup(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testMethodSetup" is-config="true" duration-ms="0" started-at="2018-04-25T21:55:37Z" finished-at="2018-04-25T21:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodSetup -->
-        <test-method status="PASS" signature="TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="TestCase1_Login_Verify" duration-ms="111" started-at="2018-04-25T12:16:33Z" data-provider="fetchData_JSON" finished-at="2018-04-25T12:16:33Z">
+        <test-method status="PASS" signature="TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="TestCase1_Login_Verify" duration-ms="63" started-at="2018-04-25T21:55:37Z" data-provider="fetchData_JSON" finished-at="2018-04-25T21:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase1_Login_Verify -->
-        <test-method status="PASS" signature="testMethodTeardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testMethodTeardown" is-config="true" duration-ms="7" started-at="2018-04-25T12:16:33Z" finished-at="2018-04-25T12:16:33Z">
+        <test-method status="PASS" signature="testMethodTeardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testMethodTeardown" is-config="true" duration-ms="10" started-at="2018-04-25T21:55:37Z" finished-at="2018-04-25T21:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodTeardown -->
-        <test-method status="PASS" signature="testMethodSetup(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testMethodSetup" is-config="true" duration-ms="1" started-at="2018-04-25T12:16:33Z" finished-at="2018-04-25T12:16:33Z">
+        <test-method status="PASS" signature="testMethodSetup(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testMethodSetup" is-config="true" duration-ms="0" started-at="2018-04-25T21:55:37Z" finished-at="2018-04-25T21:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodSetup -->
-        <test-method status="PASS" signature="TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="TestCase1_Login_Verify" duration-ms="75" started-at="2018-04-25T12:16:33Z" data-provider="fetchData_JSON" finished-at="2018-04-25T12:16:33Z">
+        <test-method status="PASS" signature="TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="TestCase1_Login_Verify" duration-ms="53" started-at="2018-04-25T21:55:37Z" data-provider="fetchData_JSON" finished-at="2018-04-25T21:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -124,7 +124,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase1_Login_Verify -->
-        <test-method status="PASS" signature="testMethodTeardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testMethodTeardown" is-config="true" duration-ms="3" started-at="2018-04-25T12:16:33Z" finished-at="2018-04-25T12:16:33Z">
+        <test-method status="PASS" signature="testMethodTeardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testMethodTeardown" is-config="true" duration-ms="5" started-at="2018-04-25T21:55:37Z" finished-at="2018-04-25T21:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodTeardown -->
-        <test-method status="PASS" signature="testClassTeardown(org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testClassTeardown" is-config="true" duration-ms="0" started-at="2018-04-25T12:16:33Z" finished-at="2018-04-25T12:16:33Z">
+        <test-method status="PASS" signature="testClassTeardown(org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testClassTeardown" is-config="true" duration-ms="0" started-at="2018-04-25T21:55:37Z" finished-at="2018-04-25T21:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -146,19 +146,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClassTeardown -->
-        <test-method status="PASS" signature="testTeardown()[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testTeardown" is-config="true" duration-ms="2977" started-at="2018-04-25T12:16:33Z" finished-at="2018-04-25T12:16:36Z">
+        <test-method status="PASS" signature="testTeardown()[pri:0, instance:com.test.LoginPageTest@3b81a1bc]" name="testTeardown" is-config="true" duration-ms="2957" started-at="2018-04-25T21:55:37Z" finished-at="2018-04-25T21:55:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeardown -->
       </class> <!-- com.test.LoginPageTest -->
     </test> <!-- LoginApp - Browser - Microsoft Edge -->
-    <test name="LoginApp - Browser - Chrome" duration-ms="10112" started-at="2018-04-25T16:16:36Z" finished-at="2018-04-25T16:16:46Z">
+    <test name="LoginApp - Browser - Chrome" duration-ms="10657" started-at="2018-04-26T01:55:40Z" finished-at="2018-04-26T01:55:51Z">
       <class name="com.test.LoginPageTest">
-        <test-method status="PASS" signature="suiteTeardown()[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="suiteTeardown" is-config="true" duration-ms="8" started-at="2018-04-25T12:16:29Z" finished-at="2018-04-25T12:16:29Z">
+        <test-method status="PASS" signature="suiteTeardown()[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="suiteTeardown" is-config="true" duration-ms="7" started-at="2018-04-25T21:55:19Z" finished-at="2018-04-25T21:55:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTeardown -->
-        <test-method status="PASS" signature="testSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testSetup" is-config="true" duration-ms="3851" started-at="2018-04-25T12:16:36Z" finished-at="2018-04-25T12:16:40Z">
+        <test-method status="PASS" signature="testSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testSetup" is-config="true" duration-ms="3640" started-at="2018-04-25T21:55:40Z" finished-at="2018-04-25T21:55:43Z">
           <params>
             <param index="0">
               <value>
@@ -185,7 +185,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testClassSetup(org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testClassSetup" is-config="true" duration-ms="3462" started-at="2018-04-25T12:16:40Z" finished-at="2018-04-25T12:16:43Z">
+        <test-method status="PASS" signature="testClassSetup(org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testClassSetup" is-config="true" duration-ms="4440" started-at="2018-04-25T21:55:43Z" finished-at="2018-04-25T21:55:48Z">
           <params>
             <param index="0">
               <value>
@@ -196,7 +196,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClassSetup -->
-        <test-method status="PASS" signature="testMethodSetup(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testMethodSetup" is-config="true" duration-ms="0" started-at="2018-04-25T12:16:43Z" finished-at="2018-04-25T12:16:43Z">
+        <test-method status="PASS" signature="testMethodSetup(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testMethodSetup" is-config="true" duration-ms="0" started-at="2018-04-25T21:55:48Z" finished-at="2018-04-25T21:55:48Z">
           <params>
             <param index="0">
               <value>
@@ -207,7 +207,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodSetup -->
-        <test-method status="PASS" signature="TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="TestCase1_Login_Verify" duration-ms="1097" started-at="2018-04-25T12:16:43Z" data-provider="fetchData_JSON" finished-at="2018-04-25T12:16:44Z">
+        <test-method status="PASS" signature="TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="TestCase1_Login_Verify" duration-ms="994" started-at="2018-04-25T21:55:48Z" data-provider="fetchData_JSON" finished-at="2018-04-25T21:55:49Z">
           <params>
             <param index="0">
               <value>
@@ -228,7 +228,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase1_Login_Verify -->
-        <test-method status="PASS" signature="testMethodTeardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testMethodTeardown" is-config="true" duration-ms="8" started-at="2018-04-25T12:16:44Z" finished-at="2018-04-25T12:16:44Z">
+        <test-method status="PASS" signature="testMethodTeardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testMethodTeardown" is-config="true" duration-ms="23" started-at="2018-04-25T21:55:49Z" finished-at="2018-04-25T21:55:49Z">
           <params>
             <param index="0">
               <value>
@@ -239,18 +239,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodTeardown -->
-        <test-method status="PASS" signature="testMethodSetup(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testMethodSetup" is-config="true" duration-ms="1" started-at="2018-04-25T12:16:44Z" finished-at="2018-04-25T12:16:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TestCase1_Login_Verify status=SUCCESS method=LoginPageTest.TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@1936f0f5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodSetup -->
-        <test-method status="PASS" signature="TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="TestCase1_Login_Verify" duration-ms="1039" started-at="2018-04-25T12:16:44Z" data-provider="fetchData_JSON" finished-at="2018-04-25T12:16:45Z">
+        <test-method status="PASS" signature="TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="TestCase1_Login_Verify" duration-ms="875" started-at="2018-04-25T21:55:49Z" data-provider="fetchData_JSON" finished-at="2018-04-25T21:55:50Z">
           <params>
             <param index="0">
               <value>
@@ -271,7 +260,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase1_Login_Verify -->
-        <test-method status="PASS" signature="testMethodTeardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testMethodTeardown" is-config="true" duration-ms="7" started-at="2018-04-25T12:16:45Z" finished-at="2018-04-25T12:16:45Z">
+        <test-method status="PASS" signature="testMethodSetup(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testMethodSetup" is-config="true" duration-ms="0" started-at="2018-04-25T21:55:49Z" finished-at="2018-04-25T21:55:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase1_Login_Verify status=SUCCESS method=LoginPageTest.TestCase1_Login_Verify(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.test.LoginPageTest@1936f0f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodSetup -->
+        <test-method status="PASS" signature="testMethodTeardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testMethodTeardown" is-config="true" duration-ms="18" started-at="2018-04-25T21:55:50Z" finished-at="2018-04-25T21:55:50Z">
           <params>
             <param index="0">
               <value>
@@ -282,11 +282,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodTeardown -->
-        <test-method status="PASS" signature="testTeardown()[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testTeardown" is-config="true" duration-ms="646" started-at="2018-04-25T12:16:45Z" finished-at="2018-04-25T12:16:46Z">
+        <test-method status="PASS" signature="testTeardown()[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testTeardown" is-config="true" duration-ms="661" started-at="2018-04-25T21:55:50Z" finished-at="2018-04-25T21:55:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeardown -->
-        <test-method status="PASS" signature="testClassTeardown(org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testClassTeardown" is-config="true" duration-ms="0" started-at="2018-04-25T12:16:45Z" finished-at="2018-04-25T12:16:45Z">
+        <test-method status="PASS" signature="testClassTeardown(org.testng.ITestContext)[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="testClassTeardown" is-config="true" duration-ms="0" started-at="2018-04-25T21:55:50Z" finished-at="2018-04-25T21:55:50Z">
           <params>
             <param index="0">
               <value>
@@ -297,7 +297,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClassTeardown -->
-        <test-method status="PASS" signature="suiteTeardown()[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="suiteTeardown" is-config="true" duration-ms="1" started-at="2018-04-25T12:16:46Z" finished-at="2018-04-25T12:16:46Z">
+        <test-method status="PASS" signature="suiteTeardown()[pri:0, instance:com.test.LoginPageTest@1936f0f5]" name="suiteTeardown" is-config="true" duration-ms="1" started-at="2018-04-25T21:55:51Z" finished-at="2018-04-25T21:55:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTeardown -->

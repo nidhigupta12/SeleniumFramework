@@ -22,10 +22,7 @@ public class Global_VARS {
     public static final String TARGET_URL = "https://test.tri-mpronav.com/login/index";
     public static String propFile = "selenium.properties";
     public static final String SE_PROPS = new File(propFile).getAbsolutePath();
-    public static final String TEST_OUTPUT_PATH = "test-output/";
-    public static final String LOGFILE_PATH = TEST_OUTPUT_PATH + "Logs/";
-    public static final String REPORT_PATH = TEST_OUTPUT_PATH + "Reports/";
-    public static final String REPORT_CONFIG_FILE = "extent-config.xml";
+   
 
     // suite timeout defaults
     public static final int TIMEOUT_MINUTE = 60;

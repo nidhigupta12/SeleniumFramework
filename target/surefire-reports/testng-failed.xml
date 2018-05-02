@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [LoginApp]">
+  <parameter name="environment" value="local"/>
+  <test name="LoginApp - Browser - Microsoft Edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="platform" value="Windows 10"/>
+    <groups>
+      <run>
+        <include name="loginGroup"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.LoginPageTest">
+        <methods>
+          <include name="TestCase1_Login_Verify"/>
+          <include name="testTeardown"/>
+          <include name="testMethodSetup"/>
+          <include name="testClassSetup"/>
+          <include name="suiteTeardown"/>
+          <include name="testMethodTeardown"/>
+          <include name="testClassTeardown"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- com.test.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginApp - Browser - Microsoft Edge(failed) -->
+  <test name="LoginApp - Browser - Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="Windows 10"/>
+    <groups>
+      <run>
+        <include name="loginGroup"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.LoginPageTest">
+        <methods>
+          <include name="TestCase1_Login_Verify"/>
+          <include name="testTeardown"/>
+          <include name="testMethodSetup"/>
+          <include name="testClassSetup"/>
+          <include name="suiteTeardown"/>
+          <include name="testMethodTeardown"/>
+          <include name="testClassTeardown"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- com.test.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginApp - Browser - Chrome(failed) -->
+</suite> <!-- Failed suite [LoginApp] -->

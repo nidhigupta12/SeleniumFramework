@@ -119,7 +119,8 @@ public class LoginPageTest {
         JSONDataProvider.dataFile = DATA_FILE;
 
         // load page
-        welcome.loadPage(Global_VARS.TARGET_URL, Global_VARS.TIMEOUT_MINUTE);
+        
+        welcome.loadPage(System.getProperty("environment"), Global_VARS.TIMEOUT_MINUTE);
     }
 
     /**
@@ -158,7 +159,7 @@ public class LoginPageTest {
 
     // test methods
 
-    @Test(groups={"loginGroup"}, dataProvider="fetchData_JSON", dataProviderClass=JSONDataProvider.class, enabled=true)
+    @Test(groups={"loginGroup"},dataProvider="fetchData_JSON", dataProviderClass=JSONDataProvider.class, enabled=true)
     public void TestCase1_Login_Verify(String rowID,
                                    String description,
                                    JSONObject testData) throws Exception {
